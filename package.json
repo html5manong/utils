@@ -1,0 +1,40 @@
+{
+  "name": "jwutil",
+  "version": "1.0.6",
+  "description": "",
+  "main": "dist/utils.min.js",
+  "scripts": {
+    "build_rollup": "rollup -c",
+    "build": "webpack --config ./build/webpack.pro.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-require-context": "^1.0.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/xiaomao1994/test_utils.git"
+  },
+  "author": "xiaomao",
+  "license": "MIT",
+  "dependencies": {
+    "js-md5": "^0.7.3"
+  }
+}
